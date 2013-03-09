@@ -1,0 +1,10 @@
+What to do
+
+create a repo
+store the existing code
+store the existing table creation .sql file
+fix something
+test
+push
+send the link to Sean
+ask him to clone the repo

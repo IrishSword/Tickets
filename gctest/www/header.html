@@ -1,0 +1,61 @@
+<?php 
+ob_start();//Hook output buffer
+?>
+<html>
+    <head>
+        <title><?php
+            error_reporting(E_ALL | E_STRICT); // add error checking everywhere
+            if (defined('TITLE')) {
+                print TITLE;
+            } else {
+                print 'GC ticket TEST';
+            }
+        ?></title>
+        
+        <style type="text/css" media="screen">
+            .error { color: red }
+            body {
+                margin:0px 0px 0px 0px;
+                background: #9F9;
+            }
+            #leftcontent {
+                float: left;
+                width:90%;
+                background:#fff;
+                border-right:2px solid #000;
+                border-bottom:2px solid #000;
+                margin-right:15px;
+                padding-bottom:20px;
+            }
+            p,h1,pre {
+                margin:0px 30px 10px 30px;
+            }
+            h1 {
+                font-size:14px;
+                padding-top:10px;
+            }
+            #rightcontent p {
+                font-size:14px;
+                margin-left:0px;
+            }
+        </style>
+    </head>
+    <body>
+
+
+    <b><center><?php
+            if (defined('TITLE')) {
+                print TITLE;
+            } else {
+                print 'GC ticket TEST';
+            }
+        ?></center></b><br>
+
+    <div id="leftcontent">
+<?php
+define('TEST', '0'); // test displays off
+//define('TEST', '1');  // test displays ON
+function print_error($msg) {
+    echo '<p style="color:red;">' . $msg . '<br />' . mysql_error() . '.</p>';
+}
+?>

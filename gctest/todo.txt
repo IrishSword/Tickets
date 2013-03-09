@@ -1,0 +1,18 @@
+TODO
+
+add login - only let those with iii logins see the envelope numbers (maybe display as just a total of generic and original)
+
+add search
+ - by game
+ - by GM
+ - by type (rpg, larp, zed)
+
+add sort?
+ - by time
+ - by gm
+ - by system
+
+move links back to left or top
+
+make it work
+THEN think about smaller screens (like phones)
