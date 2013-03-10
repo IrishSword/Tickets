@@ -1,0 +1,25 @@
+TODO
+
+Get to work with just some files in \common\ folder
+
+Move links back to left or top
+
+Add login - only let those with iii logins see the envelope numbers (maybe display as just a total of generic and original)
+ first straight to DB
+ then add encryption before save, etc.  Help debugging
+
+Add Year
+
+Add search
+ - by game
+ - by GM
+ - by type (rpg, larp, zed)
+
+Add sort?
+ - by time
+ - by gm
+ - by system
+
+
+make it work
+THEN think about smaller screens (like phones)
